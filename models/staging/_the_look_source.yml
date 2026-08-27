@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: thelook_raw
+    database: bigquery-public-data
+    schema: thelook_ecommerce
+    description: "Raw public e-commerce dataset for TheLook stored in Google BigQuery."
+    tables:
+      - name: users
+      - name: order_items
+      - name: products
+      - name: orders
+      - name: inventory_items
+      - name: events
+      - name: distribution_centers
